@@ -8,7 +8,7 @@ public class VariableInputs {
         System.out.println("Enter a string of text: ");
         String string = varInput.nextLine();
         System.out.println("Enter an integer: ");
-        int integer = varInput.nextInt();
+        int integer = Integer.parseInt(varInput.nextLine());
         System.out.println("Enter a double: ");
         double dub = varInput.nextDouble();
         System.out.println("Enter a boolean value: ");
