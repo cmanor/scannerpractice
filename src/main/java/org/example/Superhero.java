@@ -7,11 +7,11 @@ public class Superhero {
         Scanner Superhero = new Scanner(System.in);
         System.out.println("Let's write a story about a superhero.");
         System.out.println("Who is the hero of our story?");
-        String name = Superhero.nextLine();
+        String name = Superhero.nextLine().trim();
         System.out.println("What is their superpower?");
-        String power = Superhero.nextLine();
+        String power = Superhero.nextLine().trim();
         System.out.println("Here is the story:");
-        System.out.println("There once was a superhero named " + name + " , who had the power of " + power + ".");
+        System.out.println("There once was a superhero named " + name + ", who had the power of " + power + ".");
         System.out.println("As they grew older, " + name + " saw that the world needed them. ");
         System.out.println(name +" used their ability to " + power + " to save the world.");
     }
